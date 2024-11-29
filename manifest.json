@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Procrastination Blocker",
+    "version": "0.1.1",
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*", "https://www.facebook.com/*", "https://www.instagram.com/*"],
+        "js": ["Content.js"]
+      }
+    ],
+    "browser_action": {
+      "default_title": "Procrastination Blocker"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
+  
